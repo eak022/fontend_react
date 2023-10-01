@@ -15,7 +15,7 @@ function App() {
         <h2>Eakkachai 022</h2>
         <main>
           <section className="container">
-            <h3>{people.length} birthdays today </h3>
+            <h2>{people.length} birthdays today </h2>
             <List people = {people}/>
             <button onClick={clearAll}>Clear All</button>
           </section>

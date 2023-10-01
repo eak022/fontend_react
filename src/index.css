@@ -76,7 +76,7 @@ main{
   align-items: center;
 }
 .container{
-  width: 90vw;
+  width: 40vw;
   margin: 5rem 0;
   max-width: var(--max-width);
   background: var(--clr-white);
@@ -106,21 +106,24 @@ main{
 
 .person{
   display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 0.75rem;
+  grid-template-columns: auto 1fr ;
+  column-gap: 1rem;
   margin-bottom: 1.5rem;
   align-items: center;
+  
 }
 .person img{
   width: 75px;
   height: 75px;
   object-fit: cover;
-  border-radius: 50;
+  border-radius: 50%;
   box-shadow: var(--ligth-shadow);
 }
 .person h4{
   margin-bottom: 0.5rem;
+  text-align: left;
 }
 .person p{
   margin-bottom: 0;
+  text-align: left;
 }
